@@ -19,6 +19,7 @@
     "hexo-server": "^0.2.0"
   },
   "scripts": {
-    "dep": "hexo clean && hexo g && node tool.js && hexo d"
+    "dep": "hexo clean && hexo g && node tool.js && hexo d",
+    "push": "git add . && git commit -m misc && git push"
   }
 }
