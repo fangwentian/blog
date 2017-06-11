@@ -3,18 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: fangwentian's blog
+subtitle: 
 description:
-author: John Doe
-language:
+author: fangwentian
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://fangwentian.cn
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+# abbrlink config
+abbrlink:
+  alg: crc16  #support crc16(default) and crc32
+  rep: dec    #support dec(default) and hex
+permalink: posts/:abbrlink/
 permalink_defaults:
 
 # Directory
@@ -70,3 +75,4 @@ theme: landscape-plus
 deploy:
   type: git
   repo: git@github.com:fangwentian/fangwentian.github.io.git
+

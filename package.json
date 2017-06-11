@@ -8,6 +8,7 @@
   "dependencies": {
     "fs-extra": "^3.0.1",
     "hexo": "^3.2.0",
+    "hexo-abbrlink": "^2.0.4",
     "hexo-deployer-git": "^0.3.0",
     "hexo-generator-archive": "^0.1.4",
     "hexo-generator-category": "^0.1.3",
