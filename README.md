@@ -14,5 +14,9 @@ hexo new [layout] <title>
 npm run dep
 ```
 
+更换主题：  
+修改_config.yml里的theme即可
+
 博客地址：  
+
 [fangwentian.cn](http://www.fangwentian.cn)
