@@ -18,7 +18,7 @@ tags:
  - opn
  - fs-extra
  - path
-
+<!--more-->
 #### config
 &emsp;&emsp;在使用 Node.js 编写一个完整的项目时，程序中往往需要用到一些可配置的变量。
 
